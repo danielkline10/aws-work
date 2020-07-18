@@ -7,7 +7,7 @@ verify_ssl = true
 
 [packages]
 pytz = "==2020.1"
-Django = "==2.1.1"
+Django = "==2.2.13"
 djangorestframework = "*"
 djangorestframework-simplejwt = "*"
 
