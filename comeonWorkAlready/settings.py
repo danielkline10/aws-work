@@ -176,3 +176,5 @@ STATIC_URL = '/static/'
 
 # Custom user model
 AUTH_USER_MODEL = "authentication.CustomUser"
+
+WSGIPassAuthorization On
