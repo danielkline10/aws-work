@@ -28,7 +28,9 @@ SECRET_KEY = ')+qfyblwsh7^26!yu=k4uu$6jmzocr0vicaaz^2a_*_je3b8mz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-env.eba-72uxxcin.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = [
+    # 'django-env.eba-72uxxcin.us-west-2.elasticbeanstalk.com'
+]
 
 
 # Application definition
@@ -42,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'authentication',
     'rest_framework',  # add rest_framework
+   
 
 ]
 
