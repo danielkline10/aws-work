@@ -29,7 +29,9 @@ SECRET_KEY = ')+qfyblwsh7^26!yu=k4uu$6jmzocr0vicaaz^2a_*_je3b8mz'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-     'django-env.eba-72uxxcin.us-west-2.elasticbeanstalk.com'
+    'django-env.eba-72uxxcin.us-west-2.elasticbeanstalk.com',
+    '34.212.193.203'
+
 ]
 
 
@@ -44,7 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'authentication',
     'rest_framework',  # add rest_framework
-   
+
 
 ]
 
@@ -177,4 +179,4 @@ STATIC_URL = '/static/'
 # Custom user model
 AUTH_USER_MODEL = "authentication.CustomUser"
 
-#WSGIPassAuthorization On
+# WSGIPassAuthorization On
